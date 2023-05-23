@@ -1,0 +1,111 @@
+.body {
+    background: black;
+}
+
+.no-black-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.black-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.no-black-1 {
+    max-height: 398px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.no-black-2 {
+    max-height: 398px;
+    overflow: hidden;
+}
+
+.no-black-2 img {
+    max-height: initial;
+    margin-top: -401px;
+}
+
+.no-black-3 {
+    max-height: 398px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.no-black-3 img {
+    max-height: initial;
+    margin-top: -800px;
+}
+
+.black-1 {
+    max-height: 300px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.black-2 {
+    max-height: 300px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.black-2 img {
+    max-height: initial;
+    margin-top: -300px;
+}
+
+.black-3 {
+    max-height: 300px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.black-3 img {
+    max-height: initial;
+    margin-top: -600px;
+}
+
+.black-4 {
+    max-height: 300px;
+    overflow: hidden;
+    transition: all 500ms ease;
+}
+
+.black-4 img {
+    max-height: initial;
+    margin-top: -900px;
+}
+
+.no-black-photos:hover .no-black-1 {
+    transform: translateX(536px);
+}
+
+.no-black-photos:hover .no-black-2 {
+    mix-blend-mode: multiply;
+}
+
+.no-black-photos:hover .no-black-3 {
+    transform: translateX(-536px);
+    mix-blend-mode: multiply;
+}
+
+.black-photos:hover .black-1 {
+    transform: translateX(603px);
+}
+
+.black-photos:hover .black-2 {
+    transform: translateX(200px);
+    mix-blend-mode: multiply;
+}
+
+.black-photos:hover .black-3 {
+    transform: translateX(-200px);
+    mix-blend-mode: multiply;
+}
+
+.black-photos:hover .black-4 {
+    transform: translateX(-603px);
+    mix-blend-mode: multiply;
+}
